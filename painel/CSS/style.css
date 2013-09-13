@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{ overline:none; padding:0px; margin:0px; border-radius:0.5em;}
+#boxLogin{ width:400px; height:300px; margin:160px auto 0px auto; background:#999; border:1px solid #333; padding:5px; border-radius: 1em; text-align:center;}
+#boxLogin h2{ font:Arial, Helvetica, sans-serif; color:#666; margin-top:10px;}
+#boxLogin #boxLoginCenter {width:auto; text-align:center; margin:40px auto 0px auto; overflow:auto;}
+#boxLogin #boxLoginCenter span {font:16px Arial, Helvetica, sans-serif; color:#666;}
+#boxLogin #boxLoginCenter input { width:200px; border:1px solid #666; height: 25px; text-align:center; font:Arial, Helvetica, sans-serif; color:#333;}
+#boxLogin #boxLoginCenter .btn{ width:120px; height:45px;}
+#boxLogin #boxLoginCenter .btn:hover{ border:2px solid #FFF; cursor:pointer; background:#ccc;}
+/* CSS Document */
+
+#centro{ width:800px; margin:0 auto; border:1px solid #666; overflow:auto;}
+#centro #topo2{ height:200px; background:#999; text-align:center;}
+#centro #topo2 #logo{ width:139; height:77; padding:45px 0px 0px 25px; border:0;  }
+#centro #topo { padding:5px; width:790px; background:#999; font:14px Arial, Helvetica, sans-serif; color:#333; border-bottom:2px solid #FFF;}
+#centro #topo #sair{ width:200px; float:right; text-align:right; padding-right:2px;}
+#sair a{ color:red; text-decoration:none;}
+#sair a:hover{ text-decoration:underline;}
+
+#centro #conteudo{ width:100%; border-top: 1px solid #666; overflow:auto;}
+#centro #conteudo #esquerda{ float:left; width:250px;}
+#centro #conteudo #direita{ overflow:auto; float:right; width:550px;;}
+#centro #conteudo #direita h2{ padding-left:10px; font:20px Arial, Helvetica, sans-serif; #c63; border-bottom:1px dashed #666; padding-bottom:10px; margin-bottom:20px;}
+#centro #conteudo #direita p { padding-left:10px; font:14px Arial, Helvetica, sans-serif; color:#666;}
+
+#menu{ width:250px; overflow:auto; background:#999;}
+#menu ul{ list-style-type:none;}
+#menu ul li{ float:left; position:relative;}
+#menu ul li a{ display:block; padding:8px 0px; width:250px; text-align:center; font:15px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#FFF; font-weight:bold; text-decoration:none;}
+#menu ul li a:hover{ background:#09C; border-radius:1em; }
+
+#rodape { width:802px; margin:0 auto; background:#333; text-align:center; color:#CCC; height:30px; padding-top:8px;}
+
+/* Dentro do Site */
+
+#centro #conteudo #direita #msgs{ width:540px; margin:0 auto; overflow:auto; border-bottom:2px dashed #333; padding-bottom:5px; margin-bottom:10px;}
+#centro #conteudo #direita #msgs p { font:14px Arial, Helvetica, sans-serif; color:#FFF;}
+h2 { text-align: center;}
+#centro #conteudo #direita #msgs h3 { font:15px Arial, Helvetica, sans-serif; color:#000;}
+#centro #conteudo #direita #msgs h5 { padding-top:5px; font:Arial, Helvetica, sans-serif; color:#003;}
+#centro #conteudo #direita #msgs .lk{ text-decoration:none; color:#F00;}
+#centro #conteudo #direita #msgs .lk:hover{ text-decoration:underline;}
+#centro #conteudo #direita #msgs .lk2{ text-decoration:none; color:#03C;}
+#centro #conteudo #direita #msgs .lk2:hover{ text-decoration:underline;}
+#centro #conteudo #direita #msgs span{font:15px Arial, Helvetica, sans-serif; color:#333;}
+#centro #conteudo #direita #msgs input{width:auto; border:1px solid #666; height: 25px; text-align:center; font:Arial, Helvetica, sans-serif; color:#333; border-radius:0.5em;}
+#centro #conteudo #direita #msgs select{width:auto; border:1px solid #666; height: 25px; text-align:center; font:Arial, Helvetica, sans-serif; color:#333; border-radius:0.5em;}
+#centro #conteudo #direita #msgs textarea {border:1px solid #666; padding:5px; font:Arial, Helvetica, sans-serif; color:#333; border-radius:1em;}
+#centro #conteudo #direita #msgs .btn{ width:140px; height:25px;}
+#centro #conteudo #direita #msgs .btn:hover{ border:2px solid #FFF; cursor:pointer; background:#ccc;}
+
+/* Paginação */
+
+.paginacao{ text-align:center; height:40px; margin-top:20px;}
+.paginacao .page { display:inline; border:1px solid #666; color:#000;  padding:5px 8px; margin-right:4px; font:14px "Trebuchet MS", Arial, Helvetica, sans-serif; font-weight:bold;border-radius:2em; text-decoration:overline;}
+.paginacao a { border:1px solid #666; border-radius:2em; padding:5px 8px; background:#09c; color:#FFF; margin-right:2px; text-decoration:none;}
+.paginacao a:hover{ background:#006; cursor:pointer; text-decoration:underline;}
+
+/* Comentários */
+
+#centro #conteudo #direita #comentarios {width:540px; margin:0 auto; overflow:auto; border-bottom:2px dashed #333; padding-bottom:5px; margin-bottom:10px;}
